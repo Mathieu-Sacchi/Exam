@@ -1,0 +1,100 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://coworkingmarseille.com/#localbusiness",
+  "name": "Coworking Marseille",
+  "description": "Espace de coworking avec bureaux partagés, salles de réunion, espace événementiel et hébergement Airbnb près du Vieux-Port de Marseille.",
+  "url": "https://coworkingmarseille.com",
+  "telephone": "+33-XXXXXXXXX",
+  "email": "contact@coworkingmarseille.com",
+  "image": "https://coworkingmarseille.com/og-image.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "[VOTRE ADRESSE]",
+    "addressLocality": "Marseille",
+    "postalCode": "13001",
+    "addressRegion": "Provence-Alpes-Côte d'Azur",
+    "addressCountry": "FR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 43.2965,
+    "longitude": 5.3698
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "08:00",
+      "closes": "20:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Saturday"],
+      "opens": "09:00",
+      "closes": "18:00"
+    }
+  ],
+  "priceRange": "€€",
+  "currenciesAccepted": "EUR",
+  "paymentAccepted": "Cash, Credit Card",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Hot Desk / Open Space",
+          "description": "Poste de travail flexible en open space, à partir de 15 €/jour"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Bureau Privé",
+          "description": "Bureau fermé et dédié pour une personne ou une équipe"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Salle de Réunion",
+          "description": "Salles de réunion équipées (visio, écran, tableau blanc) à l'heure ou à la journée"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Espace Événementiel",
+          "description": "Espace pour séminaires, workshops et événements d'entreprise"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Hébergement Court Séjour (Airbnb)",
+          "description": "Logements meublés type Airbnb à proximité immédiate du coworking, à la nuit ou à la semaine"
+        }
+      }
+    ]
+  },
+  "sameAs": [
+    "https://www.instagram.com/coworkingmarseille/",
+    "https://www.linkedin.com/company/coworkingmarseille/",
+    "https://www.facebook.com/coworkingmarseille/"
+  ],
+  "amenityFeature": [
+    { "@type": "LocationFeatureSpecification", "name": "Wi-Fi Fibre", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Cuisine Équipée", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Imprimante", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Climatisation", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Casiers", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Espace Détente", "value": true }
+  ]
+}
