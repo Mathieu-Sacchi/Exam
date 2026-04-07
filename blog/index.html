@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | Coworking Marseille – Espace de travail & Salles de réunion</title>
+  <meta name="description" content="Blog de Coworking Marseille : guides, comparatifs et conseils pour le coworking, les salles de réunion, les freelances et les digital nomads à Marseille.">
+  <style>
+    :root {
+      --primary: #1a1a2e;
+      --accent: #e94560;
+      --bg: #f8f9fa;
+      --card-bg: #ffffff;
+      --text: #333;
+      --text-light: #666;
+      --border: #e0e0e0;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+    header p { color: #ccc; font-size: 1rem; }
+    .lang-switch {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .lang-switch a {
+      color: white;
+      background: rgba(255,255,255,0.15);
+      padding: 0.4rem 1rem;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: background 0.2s;
+    }
+    .lang-switch a:hover, .lang-switch a.active {
+      background: var(--accent);
+    }
+    main { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+    .article-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      transition: box-shadow 0.2s;
+    }
+    .article-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+    .article-card .tag {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      font-size: 0.75rem;
+      padding: 0.2rem 0.6rem;
+      border-radius: 3px;
+      margin-bottom: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .article-card .tag.pillar { background: #0f3460; }
+    .article-card .tag.differentiator { background: #16697a; }
+    .article-card h2 { font-size: 1.25rem; margin-bottom: 0.5rem; }
+    .article-card h2 a { color: var(--primary); text-decoration: none; }
+    .article-card h2 a:hover { color: var(--accent); }
+    .article-card p { color: var(--text-light); font-size: 0.95rem; margin-bottom: 0.75rem; }
+    .article-card .meta {
+      font-size: 0.85rem;
+      color: #999;
+    }
+    .article-card .links { margin-top: 0.75rem; }
+    .article-card .links a {
+      display: inline-block;
+      margin-right: 1rem;
+      font-size: 0.9rem;
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .article-card .links a:hover { text-decoration: underline; }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #999;
+      font-size: 0.85rem;
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Coworking Marseille — Blog</h1>
+  <p>Guides, comparatifs et conseils pour le coworking a Marseille</p>
+  <div class="lang-switch">
+    <a href="#fr" class="active" onclick="showLang('fr')">Francais</a>
+    <a href="#en" onclick="showLang('en')">English</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- FRENCH ARTICLES -->
+  <div id="articles-fr">
+
+    <div class="article-card">
+      <span class="tag pillar">Article pilier</span>
+      <h2><a href="fr/01-meilleur-coworking-marseille-2026.html">Les 7 meilleurs espaces de coworking a Marseille en 2026 : tarifs, services et avis compares</a></h2>
+      <p>Comparatif complet des 7 meilleurs coworkings a Marseille avec tableau de notation, tarifs de 15 a 450 EUR/mois, et le seul espace avec hebergement Airbnb integre.</p>
+      <div class="meta">Avril 2026 &middot; Lecture 8 min</div>
+      <div class="links">
+        <a href="fr/01-meilleur-coworking-marseille-2026.html">Lire en francais</a>
+        <a href="en/01-best-coworking-marseille-2026.html">Read in English</a>
+      </div>
+    </div>
+
+    <div class="article-card">
+      <h2><a href="fr/02-coworking-freelance-marseille-guide-2026.html">Coworking a Marseille pour freelances : guide pratique des tarifs, espaces et aides en 2026</a></h2>
+      <p>Guide complet pour les freelances : tarifs des 15 EUR/jour, deductibilite fiscale a 100 %, top 5 des espaces adaptes et conseils pratiques.</p>
+      <div class="meta">Avril 2026 &middot; Lecture 7 min</div>
+      <div class="links">
+        <a href="fr/02-coworking-freelance-marseille-guide-2026.html">Lire en francais</a>
+        <a href="en/02-coworking-freelance-marseille-guide-2026.html">Read in English</a>
+      </div>
+    </div>
+
+    <div class="article-card">
+      <span class="tag differentiator">Differenciateur cle</span>
+      <h2><a href="fr/03-coworking-hebergement-marseille-vieux-port.html">Coworking avec hebergement a Marseille : travailler et dormir pres du Vieux-Port</a></h2>
+      <p>Le seul guide comparant les 3 options coworking + logement a Marseille : Airbnb + coworking, coliving Babel Community, et hotel + coworking separe.</p>
+      <div class="meta">Avril 2026 &middot; Lecture 6 min</div>
+      <div class="links">
+        <a href="fr/03-coworking-hebergement-marseille-vieux-port.html">Lire en francais</a>
+        <a href="en/03-coworking-accommodation-marseille-vieux-port.html">Read in English</a>
+      </div>
+    </div>
+
+    <div class="article-card">
+      <h2><a href="fr/04-salle-reunion-marseille-location-tarifs.html">Louer une salle de reunion a Marseille : tarifs, capacites et espaces en 2026</a></h2>
+      <p>Comparatif de 6 espaces avec salles de reunion a Marseille : tarifs de 25 a 90 EUR/h, capacite, equipements et le seul lieu avec hebergement pour vos participants.</p>
+      <div class="meta">Avril 2026 &middot; Lecture 6 min</div>
+      <div class="links">
+        <a href="fr/04-salle-reunion-marseille-location-tarifs.html">Lire en francais</a>
+        <a href="en/04-meeting-room-marseille-rental-prices.html">Read in English</a>
+      </div>
+    </div>
+
+    <div class="article-card">
+      <h2><a href="fr/05-digital-nomad-marseille-guide-2026.html">Guide du digital nomad a Marseille en 2026 : coworking, logement, visa et cout de la vie</a></h2>
+      <p>Guide complet : budget mensuel des 1 500 EUR, 15+ coworkings, 300 jours de soleil, guide visa, et le seul coworking avec Airbnb integre pour les nomads.</p>
+      <div class="meta">Avril 2026 &middot; Lecture 9 min</div>
+      <div class="links">
+        <a href="fr/05-digital-nomad-marseille-guide-2026.html">Lire en francais</a>
+        <a href="en/05-digital-nomad-marseille-guide-2026.html">Read in English</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ENGLISH ARTICLES (hidden by default) -->
+  <div id="articles-en" style="display:none;">
+
+    <div class="article-card">
+      <span class="tag pillar">Pillar article</span>
+      <h2><a href="en/01-best-coworking-marseille-2026.html">7 Best Coworking Spaces in Marseille in 2026: Prices, Services & Reviews Compared</a></h2>
+      <p>Full comparison of the 7 top-rated coworking spaces in Marseille with scorecard table, prices from EUR 15/day, and the only space with built-in Airbnb accommodation.</p>
+      <div class="meta">April 2026 &middot; 8 min read</div>
+      <div class="links">
+        <a href="en/01-best-coworking-marseille-2026.html">Read in English</a>
+        <a href="fr/01-meilleur-coworking-marseille-2026.html">Lire en francais</a>
+      </div>
+    </div>
+
+    <div class="article-card">
+      <h2><a href="en/02-coworking-freelance-marseille-guide-2026.html">Coworking in Marseille for Freelancers: Prices, Spaces & Tax Benefits in 2026</a></h2>
+      <p>Complete freelancer guide: prices from EUR 15/day, 100% tax-deductible expenses, top 5 freelance-friendly spaces, and practical tips.</p>
+      <div class="meta">April 2026 &middot; 7 min read</div>
+      <div class="links">
+        <a href="en/02-coworking-freelance-marseille-guide-2026.html">Read in English</a>
+        <a href="fr/02-coworking-freelance-marseille-guide-2026.html">Lire en francais</a>
+      </div>
+    </div>
+
+    <div class="article-card">
+      <span class="tag differentiator">Key differentiator</span>
+      <h2><a href="en/03-coworking-accommodation-marseille-vieux-port.html">Coworking with Accommodation in Marseille: Work and Stay near the Vieux-Port</a></h2>
+      <p>The only guide comparing 3 coworking + lodging options in Marseille: Airbnb + coworking, Babel Community coliving, and hotel + separate coworking.</p>
+      <div class="meta">April 2026 &middot; 6 min read</div>
+      <div class="links">
+        <a href="en/03-coworking-accommodation-marseille-vieux-port.html">Read in English</a>
+        <a href="fr/03-coworking-hebergement-marseille-vieux-port.html">Lire en francais</a>
+      </div>
+    </div>
+
+    <div class="article-card">
+      <h2><a href="en/04-meeting-room-marseille-rental-prices.html">Meeting Room Rental in Marseille: Prices, Capacity & Available Spaces in 2026</a></h2>
+      <p>Compare 6 venues with meeting rooms in Marseille: EUR 25-90/hr, capacity, equipment, and the only venue with guest accommodation.</p>
+      <div class="meta">April 2026 &middot; 6 min read</div>
+      <div class="links">
+        <a href="en/04-meeting-room-marseille-rental-prices.html">Read in English</a>
+        <a href="fr/04-salle-reunion-marseille-location-tarifs.html">Lire en francais</a>
+      </div>
+    </div>
+
+    <div class="article-card">
+      <h2><a href="en/05-digital-nomad-marseille-guide-2026.html">Digital Nomad Guide to Marseille 2026: Coworking, Accommodation, Visa & Cost of Living</a></h2>
+      <p>Complete guide: monthly budget from EUR 1,500, 15+ coworking spaces, 300 days of sun, visa guide, and the only coworking with integrated Airbnb.</p>
+      <div class="meta">April 2026 &middot; 9 min read</div>
+      <div class="links">
+        <a href="en/05-digital-nomad-marseille-guide-2026.html">Read in English</a>
+        <a href="fr/05-digital-nomad-marseille-guide-2026.html">Lire en francais</a>
+      </div>
+    </div>
+
+  </div>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 <a href="https://coworkingmarseille.com">Coworking Marseille</a> — Espace de travail & Salles de reunion pres du Vieux-Port</p>
+</footer>
+
+<script>
+function showLang(lang) {
+  document.getElementById('articles-fr').style.display = lang === 'fr' ? 'block' : 'none';
+  document.getElementById('articles-en').style.display = lang === 'en' ? 'block' : 'none';
+  document.querySelectorAll('.lang-switch a').forEach(a => a.classList.remove('active'));
+  document.querySelector('.lang-switch a[href="#' + lang + '"]').classList.add('active');
+}
+</script>
+
+</body>
+</html>
