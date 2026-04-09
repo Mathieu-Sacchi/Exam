@@ -1,0 +1,68 @@
+# Coworking Marseille Blog
+
+## Organization
+- **Name**: Coworking Marseille
+- **Website**: https://coworkingmarseille.com
+- **Blog**: https://mathieu-sacchi.github.io/Exam/blog/
+
+## Description
+Premium coworking space located near the Vieux-Port in Marseille, France. Offering flexible hot desks, private offices, fully-equipped meeting rooms, event space, and integrated short-term Airbnb accommodation for traveling professionals and digital nomads.
+
+## Services
+- Hot desk / open space workstations (from €15/day)
+- Private offices for individuals and teams
+- Meeting rooms and event space (€25-90/hour)
+- Short-term accommodation (Airbnb-style apartments)
+- High-speed fiber Wi-Fi
+- Kitchen facilities
+- Printing and office equipment
+
+## Location
+- **Address**: [Vieux-Port, Marseille, France]
+- **Coordinates**: 43.2965, 5.3698
+- **Phone**: [Your phone number]
+- **Email**: [Your email]
+
+## Blog Content
+The blog features 10 bilingual (French + English) articles covering:
+
+1. **Coworking Comparison** - Top 7 coworking spaces in Marseille 2026 with pricing and features comparison
+2. **Freelance Guide** - Coworking for independent professionals including tax deduction information
+3. **Coworking + Accommodation** - Combining workspace and short-term lodging (key differentiator)
+4. **Meeting Rooms** - Rental prices and spaces available in Marseille
+5. **Digital Nomad Guide** - Complete guide to living and working remotely in Marseille
+
+## Target Audience
+- Freelancers and self-employed professionals in France
+- Digital nomads seeking flexible workspace and accommodation
+- Business travelers requiring meeting spaces and lodging
+- Teams organizing offsites and seminars in Marseille
+- International remote workers exploring the city
+
+## Key Topics (for AI indexing)
+- coworking space
+- shared office
+- meeting room rental
+- Marseille business services
+- digital nomad accommodation
+- short-term housing
+- freelancer workspace
+- business hub
+
+## SEO & GEO Implementation
+- Bilingual content (FR/EN) with hreflang tags
+- Structured data markup: Article + FAQPage + LocalBusiness schemas
+- Quick-answer blocks in all articles (first 200 words answer query completely)
+- Comparison tables and scorecards (most-cited AI format)
+- Evidence-dense content with specific prices, statistics, distances
+- 60-75 day content refresh cycle for AI citation priority
+
+## Recent Updates
+- **Last Updated**: April 2026
+- **Content Freshness**: All articles published April 2026, maintained monthly
+
+## Contact & Inquiries
+For questions about services, pricing, or partnerships, please contact:
+- Phone: [Your phone]
+- Email: [Your email]
+- Website: https://coworkingmarseille.com
